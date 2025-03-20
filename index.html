@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    
+<!-- Favicon -->
+<link rel="icon" type="image/jpeg" href="assets/ico1.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="menu">
+        <div class="menu-icon">&#9776;</div>
+        <div class="menu-content">
+            <button id="toggle-audio">Play Audio</button>
+            <a href="#sources">Sources</a>
+            <span>By Alexander Torky</span>
+        </div>
+    </nav>
+
+    <!-- Side Panel -->
+    <div id="side-panel">
+        <button id="side-toggle">☰</button>
+        <div id="side-options">
+            <button id="side-audio">Toggle Audio</button>
+            <button id="side-sources">Sources</button>
+            <div class="side-info">
+                Created by Alexander Torky<br>
+                Elshekh Zayed Egypt<br>
+                2025 Mar
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>Murphy</h1>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+            <img src="assets/murphy/pic3.jpg" alt="Picture 3">
+            <img src="assets/murphy/pic2.jpg" alt="Picture 2">
+            <img src="assets/murphy/pic1.jpg" alt="Picture 1">
+             </div>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <div class="lightbox-content">
+            <img class="lightbox-image" src="" alt="Lightbox Image">
+        </div>
+    </div>    
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <video controls>
+            <source src="assets/murphy/video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+     </section>
+
+    <!-- Content Section (Approximately 500 Words About Black Holes) -->
+    <section class="content">
+        <h2>About Black Holes</h2>
+        <p>
+            Black holes are among the most enigmatic and fascinating objects in the universe. They are regions of
+            spacetime where gravity is so intense that nothing, not even light, can escape once it crosses the event
+            horizon. Their formation typically follows the dramatic death of a massive star, leaving behind a core of
+            incomprehensible density.
+        </p>
+        <p>
+            In astrophysics, black holes challenge our understanding of fundamental physics. Einstein’s theory of
+            general relativity predicts that massive objects warp spacetime, and black holes represent the ultimate
+            distortion of this fabric. Observations, from X-ray emissions to gravitational lensing, provide compelling
+            evidence of their existence.
+        </p>
+        <p>
+            The detection of gravitational waves from merging black holes has opened a new window into the cosmos,
+            confirming theoretical predictions and offering insights into the behavior of these extraordinary entities.
+            The Event Horizon Telescope’s historic image of a black hole’s shadow further underscores the reality of
+            these cosmic phenomena.
+        </p>
+        <p>
+            Black holes come in various sizes. Stellar black holes, formed from individual stars, possess masses several
+            times that of our Sun. In contrast, supermassive black holes, located at the centers of galaxies, have
+            masses ranging from millions to billions of solar masses. Their gravitational influence shapes the evolution
+            of galaxies and the dynamics of the interstellar medium.
+        </p>
+        <p>
+            One of the most dramatic effects near a black hole is spaghettification. As objects get closer, the steep
+            gravitational gradient stretches and compresses them into long, thin shapes before they are ultimately torn
+            apart. This phenomenon illustrates the extreme conditions present near the event horizon.
+        </p>
+        <p>
+            Theoretical models, including Hawking radiation, suggest that black holes may not be entirely eternal but
+            could gradually evaporate over time. This idea bridges quantum mechanics and general relativity, inviting
+            deeper questions about the nature of information and the ultimate fate of matter consumed by black holes.
+        </p>
+        <p>
+            Ongoing research continues to unveil new mysteries about black holes, from the behavior of matter under
+            extreme gravity to the potential for new physics beyond our current theories. Each discovery brings us
+            closer to understanding not only black holes but also the fundamental workings of the universe.
+        </p>
+    </section>
+
+<!-- Sources Section -->
+<section id="sources" class="sources">
+    <h2>Sources & References</h2>
+    <ul>
+        <li><a href="https://www.nasa.gov" target="_blank" rel="noopener noreferrer">NASA</a></li>
+        <li><a href="https://www.eventhorizontelescope.org" target="_blank" rel="noopener noreferrer">Event Horizon Telescope</a></li>
+        <li><a href="https://www.esa.int" target="_blank" rel="noopener noreferrer">European Space Agency</a></li>
+        <li><a href="https://www.scientificamerican.com" target="_blank" rel="noopener noreferrer">Scientific American</a></li>
+        <li><a href="https://arxiv.org" target="_blank" rel="noopener noreferrer">arXiv</a></li>
+    </ul>
+</section>
+
+<!-- Background Audio -->
+<audio id="background-audio" loop controls>
+    <source src="assets/murphy/Audio1.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
